@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 13px;
+}
+.brand img{
+    width: 44px;
+    padding: 7px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.container{
+    height: 67vh;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 15px;
+    cursor: pointer;
+}
+
+#myprogressbar{
+    width: 80vw;
+   
+}
+
