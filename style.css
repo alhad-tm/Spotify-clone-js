@@ -100,7 +100,7 @@ nav ul li{
     cursor: pointer;
 }
 
-.songinfo{
+.songInfo{
     position: absolute;
     left: 10vw;
 }
