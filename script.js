@@ -7,18 +7,19 @@ let masterSongName=document.getElementById('masterSongName');
 let songItems=Array.from(document.getElementsByClassName('songItem'));
 
 
+
 let songs=[
-    {songName:"Baarish ka paani", filePath:"songs/1.mp3",coverPath:"covers/baarish.jpg"},
-    {songName:"Ciao_Adias--Annie marie", filePath:"songs/2.mp3",coverPath:"covers/ciao adias.jpg"},
-    {songName:"Kesariya tera ishq", filePath:"songs/3.mp3",coverPath:"covers/kesariya.jpg"},
-    {songName:"Raatn lambiyan", filePath:"songs/4.mp3",coverPath:"covers/lambiyan.jpg"},
-    {songName:"Rock a bye", filePath:"songs/5.mp3",coverPath:"covers/rock-a-bye.jpg"},
+    {songName:"Baarish | Half GirlFriend", filePath:"songs/1.mp3",coverPath:"covers/baarish.jpg"},
+    {songName:"Ciao_Adios--Anne Marie", filePath:"songs/2.mp3",coverPath:"covers/ciao adias.jpg"},
+    {songName:"Kesariya (From Brahmastra)", filePath:"songs/3.mp3",coverPath:"covers/kesariya.jpg"},
+    {songName:"Raatan Lambiyan(Shershaah)", filePath:"songs/4.mp3",coverPath:"covers/lambiyan.jpg"},
+    {songName:"Rockabye(Sean Paul & Anne Marie)", filePath:"songs/5.mp3",coverPath:"covers/rock-a-bye.jpg"},
     {songName:"Tere Sabg Yaara", filePath:"songs/6.mp3",coverPath:"covers/tere.jpg"}
 ]
 
 songItems.forEach((element,i)=>{
   element.getElementsByTagName('img')[0].src=songs[i].coverPath;
-  element.getElementsByClassName('songName')[0].innerText=songs[i].songName
+  element.getElementsByClassName('songName')[0].innerText=songs[i].songName;
 })
 
 masterPlay.addEventListener('click',()=>{
@@ -98,4 +99,4 @@ document.getElementById('previous').addEventListener('click',()=>{
 })
 
 // 1:22:00 hrs
-// 1:31:14 hrs next and previous, but still problem with masterPlay
+// 1:31:14 hrs next and previous, 

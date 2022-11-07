@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
 body{
-    background-color: antiquewhite;
+    background-color: #c2c3ae;
 }
 
 *{
@@ -40,12 +40,14 @@ nav ul li{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: 25px auto;
     border-radius: 11px;
     padding: 17px;
-    background-image: url('./bg.jpg');
-    background-size: 920px;
+    background-image: url('./main2.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
     
 }
 
@@ -78,8 +80,8 @@ nav ul li{
 .songItem{
   height: 40px;
   display: flex;
-  background-color:white;
-  width: 80%;
+  background-color:rgb(243, 240, 232);
+  width: 90%;
   color: black;
   margin: 12px 0;
   justify-content: space-between;
